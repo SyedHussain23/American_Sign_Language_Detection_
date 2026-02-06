@@ -1,7 +1,7 @@
 # 🤟 American Sign Language (ASL) Detection using CNN
 
 This project implements a **beginner-level Convolutional Neural Network (CNN)** to classify **American Sign Language (ASL) hand signs** from images.  
-It demonstrates the complete deep learning workflow, including dataset handling, preprocessing, model training, evaluation, and prediction.
+It demonstrates the complete deep learning workflow, including dataset handling, preprocessing, model training, evaluation, and prediction using TensorFlow and Keras.
 
 ---
 
@@ -68,7 +68,7 @@ A **Sequential CNN model** was built with the following layers:
 - **Batch Size:** 32  
 - **Validation Data:** Used during training to monitor performance  
 
-This configuration was intentionally kept minimal to demonstrate a **baseline CNN approach**.
+This setup represents a **baseline CNN model** for ASL classification.
 
 ---
 
@@ -85,15 +85,15 @@ This configuration was intentionally kept minimal to demonstrate a **baseline CN
   - No data augmentation
   - Simple CNN architecture
 
-This model is intended as a **baseline**, not a high-performance solution.
+This model is intended as a **learning baseline**, not a production-ready solution.
 
 ---
 
 ## 🔍 Prediction Demonstration
 
 The trained model was used to predict labels for unseen test images.  
-Predictions were visualized by displaying the image along with:
-
+Predictions were visualized by displaying:
+- The image
 - True label
 - Predicted label
 
@@ -112,14 +112,24 @@ Predictions were visualized by displaying the image along with:
 
 ---
 
-## 🔮 Future Improvements
+## 🚀 How to Run
 
+```bash
+git clone https://github.com/SyedHussain23/American_Sign_Language_Detection_.git
+cd American_Sign_Language_Detection_
+pip install tensorflow numpy opencv-python matplotlib kagglehub
+jupyter notebook American_Sign_Language_Detection_.ipynb
+```
+
+---
+
+## 🔮 Future Improvements
 - Normalize image pixel values
 - Train for more epochs
 - Apply data augmentation
 - Use transfer learning (MobileNet, ResNet, EfficientNet)
 - Hyperparameter tuning
-- Improve model generalization and accuracy
+- Improve overall model accuracy and generalization
 
 ---
 
@@ -127,8 +137,8 @@ Predictions were visualized by displaying the image along with:
 
 **Syed Hussain Abdul Hakeem**
 
-- LinkedIn: https://www.linkedin.com/in/syed-hussain-abdul-hakeem  
-- GitHub: https://github.com/SyedHussain23  
+- LinkedIn: https://www.linkedin.com/in/syed-hussain-abdul-hakeem
+- GitHub: https://github.com/SyedHussain23
 
 ---
 
@@ -141,3 +151,4 @@ This project is open source and available under the MIT License.
 ## ⭐ Show Your Support
 
 If you found this project useful, consider giving it a ⭐.
+
